@@ -7,13 +7,12 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2022 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2023 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   *
   ******************************************************************************
   */
@@ -60,16 +59,13 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define a_signal_Pin GPIO_PIN_4
-#define a_signal_GPIO_Port GPIOE
-#define a_signal_EXTI_IRQn EXTI4_IRQn
-#define b_signal_Pin GPIO_PIN_5
-#define b_signal_GPIO_Port GPIOE
-#define direction_Pin GPIO_PIN_6
-#define direction_GPIO_Port GPIOE
-#define direction_change_Pin GPIO_PIN_3
-#define direction_change_GPIO_Port GPIOF
-#define direction_change_EXTI_IRQn EXTI3_IRQn
+#define K_find_Pin GPIO_PIN_2
+#define K_find_GPIO_Port GPIOF
+#define Tau_find_Pin GPIO_PIN_3
+#define Tau_find_GPIO_Port GPIOF
+#define A_signal_Pin GPIO_PIN_6
+#define A_signal_GPIO_Port GPIOF
+#define A_signal_EXTI_IRQn EXTI9_5_IRQn
 
 /* USER CODE BEGIN Private defines */
 
