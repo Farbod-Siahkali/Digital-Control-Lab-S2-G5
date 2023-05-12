@@ -35,7 +35,7 @@
         <li>Connect the encoder's common ground to the GND pin of the STM32.</li>
     </ul>
     <h4>Oscilloscope Picture</h4>
-    <p><img src="oscilloscope_picture.png" alt="Oscilloscope Picture"></p>
+    <p><img src="oscilloscope_picture.jpg" alt="Oscilloscope Picture"></p>
     <p>Please refer to the picture above to see the oscilloscope waveform captured during the DC motor control process.
     </p>
     <h2>Contributors</h2>
